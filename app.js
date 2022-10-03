@@ -41,6 +41,7 @@ sell.addEventListener("click", function sellClick() {
 function buttonClickAccept() {
   document.querySelector(".accept");
   document.querySelector(".order").style.display = "none";
+  location.reload();
 }
 
 //bitcoin
