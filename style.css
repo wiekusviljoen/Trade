@@ -1,21 +1,64 @@
 .currency{
- position: absolute;left: 2%;
+ position: absolute;left: 5%;
  top: 1%;
  font-size: 30px;
+ color: white;
+ 
 }
 
 #arrow{
- position: relative;left: 25%;
- top: 30px;
+ position: absolute;left: 65%;
+ top: 35px;
  
 }
 
 #arrowDown{
-    position: relative;left: 25%;
-    top: 30px;
+    position: absolute;left: 65%;
+    top: 35px;
     
    }
 
+
+   #arrowEth{
+    position: absolute;left: 62%;
+    top: 35px;
+    
+   }
+   
+   #arrowDownEth{
+       position: absolute;left: 62%;
+       top: 35px;
+       
+      }
+
 .price{
-    position: absolute;left: 5%;
+    position: absolute;left: 40%;
+    color: white;
+    top: 5%;
+}
+
+.bitcoinWrap{
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    position: absolute;top: 10%;
+    max-width: 420px;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+
+.ethWrap{
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    position: absolute;top: 30%;
+    max-width: 420px;
+    justify-content: center;
+    align-items: center;
 }
