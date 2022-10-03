@@ -31,7 +31,7 @@ ws.onmessage = (event) => {
     document.getElementById("arrowDown").style.color = "red";
   }
 
-  if (stockPriceElement.style.color == "black") {
+  if (stockPriceElement.style.color == "white") {
     document.getElementById("arrowDown").style.display = "none";
     document.getElementById("arrow").style.display = "none";
   }
@@ -59,7 +59,7 @@ ws.onmessage = (event) => {
       document.getElementById("arrowDownEth").style.color = "red";
     }
 
-    if (stockPriceElementEth.style.color == "black") {
+    if (stockPriceElementEth.style.color == "white") {
       document.getElementById("arrowDownEth").style.display = "none";
       document.getElementById("arrowEth").style.display = "none";
     }
