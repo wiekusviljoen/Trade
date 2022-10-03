@@ -184,4 +184,13 @@ body{
 
 .orderinc{
     width: 20px;
+    position: absolute;right: 60%;
+}
+
+.less{
+    position: absolute;right: 70%;
+}
+
+.more{
+    position: absolute;right: 50%;
 }
