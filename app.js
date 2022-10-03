@@ -36,6 +36,7 @@ buy.addEventListener("click", function buyClick() {
 
 sell.addEventListener("click", function sellClick() {
   alert("Sell BTC");
+  document.querySelector(".order").style.display = "block";
 });
 
 function buttonClickAccept() {
@@ -77,10 +78,12 @@ ws.onmessage = (event) => {
 //ethereum
 buyEth.addEventListener("click", function buyClick() {
   alert("Buy ETH!");
+  document.querySelector(".order").style.display = "block";
 });
 
 sellEth.addEventListener("click", function sellClick() {
   alert("Sell ETH!");
+  document.querySelector(".order").style.display = "block";
 });
 eth.onmessage = (event) => {
   let stockObject = JSON.parse(event.data);
@@ -114,10 +117,12 @@ eth.onmessage = (event) => {
 //tether
 buyTeth.addEventListener("click", function buyClick() {
   alert("Buy TETH!");
+  document.querySelector(".order").style.display = "block";
 });
 
 sellTeth.addEventListener("click", function sellClick() {
   alert("Sell TETH!");
+  document.querySelector(".order").style.display = "block";
 });
 
 tether.onmessage = (event) => {

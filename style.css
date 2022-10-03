@@ -5,6 +5,8 @@ body{
 .heading{
     color: white;
     position: absolute;right: 45%;
+    position: absolute;top:0.1%;
+  
 }
 
 .currency{
@@ -188,18 +190,19 @@ body{
     position: absolute;top: 4.5%;
     position: absolute;left: 1%;
     padding-left: 10px;
+    color: gold;
 }
 
 .orderinc{
     width: 35px;
-    position: absolute;right: 60%;
+    position: absolute;right: 48%;
     font-size: larger;
     align-items: center;
     border-radius: 5px;
 }
 
 .less{
-    position: absolute;right: 70%;
+    position: absolute;right: 60%;
     cursor: pointer;
     font-size: larger;
     border-radius: 30%;
@@ -207,7 +210,7 @@ body{
 }
 
 .more{
-    position: absolute;right: 53%;
+    position: absolute;right: 39%;
     cursor: pointer;
     font-size: larger;
     border-radius: 30%;
@@ -215,10 +218,16 @@ body{
 }
 
 .accept{
-    position: absolute;right: 30%;
+    position: absolute;right: 10%;
     cursor: pointer;
     font-size: 20px;
     background-color: rgb(12, 178, 243);
     border-radius: 5px;
     border: none;
+}
+
+.bullvsbear{
+    position: absolute;top: 30%;
+    position: absolute;left: 3.5%;
+    border-radius: 10px;
 }
