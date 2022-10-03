@@ -10,8 +10,22 @@ let arrowEth = document.getElementById("arrowEth");
 let arrowDownEth = document.getElementById("arrowDownEth");
 let arrowTeth = document.getElementById("arrowTeth");
 let arrowDownTeth = document.getElementById("arrowDownTeth");
+let buy = document.querySelector(".buybtn");
+let sell = document.querySelector(".sellbtn");
+let buyEth = document.querySelector(".buybtneth");
+let sellEth = document.querySelector(".sellbtneth");
+let buyTeth = document.querySelector(".buybtnTeth");
+let sellTeth = document.querySelector(".sellbtnTeth");
 let lastPrice = null;
 
+//button eventListeners
+buy.addEventListener("click", function buyClick() {
+  alert("Buy BTC!");
+});
+
+sell.addEventListener("click", function sellClick() {
+  alert("Sell BTC");
+});
 //bitcoin
 ws.onmessage = (event) => {
   let stockObject = JSON.parse(event.data);
@@ -43,7 +57,13 @@ ws.onmessage = (event) => {
 };
 
 //ethereum
+buyEth.addEventListener("click", function buyClick() {
+  alert("Buy ETH!");
+});
 
+sellEth.addEventListener("click", function sellClick() {
+  alert("Sell ETH!");
+});
 eth.onmessage = (event) => {
   let stockObject = JSON.parse(event.data);
   let priceETH = parseFloat(stockObject.p).toFixed(2);
@@ -74,6 +94,13 @@ eth.onmessage = (event) => {
 };
 
 //tether
+buyTeth.addEventListener("click", function buyClick() {
+  alert("Buy TETH!");
+});
+
+sellTeth.addEventListener("click", function sellClick() {
+  alert("Sell TETH!");
+});
 
 tether.onmessage = (event) => {
   let stockObject = JSON.parse(event.data);

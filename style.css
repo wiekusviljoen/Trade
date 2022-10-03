@@ -99,6 +99,50 @@ body{
     padding: 5px;
 }
 
+
+.buybtneth{
+    background-color: green;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.sellbtneth{
+    background-color: red;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.buybtnTeth{
+    background-color: green;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.sellbtnTeth{
+    background-color: red;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+
 .ethWrap{
     background: #000000d0;
     color: white;
