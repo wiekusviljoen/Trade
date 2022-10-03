@@ -18,6 +18,16 @@ let buyTeth = document.querySelector(".buybtnTeth");
 let sellTeth = document.querySelector(".sellbtnTeth");
 let lastPrice = null;
 
+var i = 0;
+function buttonClick() {
+  document.getElementById("inc").value = ++i;
+}
+
+var i = 0;
+function buttonClickless() {
+  document.getElementById("inc").value = --i;
+}
+
 //button eventListeners
 buy.addEventListener("click", function buyClick() {
   alert("Buy BTC!");

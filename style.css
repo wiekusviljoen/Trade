@@ -166,3 +166,22 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.order{
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    position: absolute;top: 10%;
+    position: absolute;right: 10%;
+    max-width: 420px;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+
+.orderinc{
+    width: 20px;
+}
