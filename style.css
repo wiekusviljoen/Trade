@@ -178,6 +178,7 @@ body{
     max-width: 420px;
     justify-content: center;
     align-items: center;
+    display: none;
  
    
 }
@@ -185,12 +186,24 @@ body{
 .orderinc{
     width: 20px;
     position: absolute;right: 60%;
+    font-size: larger;
+    align-items: center;
 }
 
 .less{
     position: absolute;right: 70%;
+    cursor: pointer;
+    font-size: larger;
 }
 
 .more{
     position: absolute;right: 50%;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.accept{
+    position: absolute;right: 30%;
+    cursor: pointer;
+    font-size: 15px;
 }

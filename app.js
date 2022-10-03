@@ -31,11 +31,18 @@ function buttonClickless() {
 //button eventListeners
 buy.addEventListener("click", function buyClick() {
   alert("Buy BTC!");
+  document.querySelector(".order").style.display = "block";
 });
 
 sell.addEventListener("click", function sellClick() {
   alert("Sell BTC");
 });
+
+function buttonClickAccept() {
+  document.querySelector(".accept");
+  document.querySelector(".order").style.display = "none";
+}
+
 //bitcoin
 ws.onmessage = (event) => {
   let stockObject = JSON.parse(event.data);
