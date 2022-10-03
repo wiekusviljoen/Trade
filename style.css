@@ -11,7 +11,7 @@ body{
  position: absolute;left: 5%;
  top: 1%;
  font-size: 30px;
- color: white;
+ color: rgb(255, 166, 0);
  
 }
 
@@ -74,6 +74,7 @@ body{
 
 .btns{
     position: absolute;right: 5%;
+    position: absolute;top: 25%;
    
 }
 
@@ -84,6 +85,8 @@ body{
     cursor: pointer;
     border: none;
     margin: 5px;
+    color: white;
+    padding: 5px;
 }
 
 .sellbtn{
@@ -92,6 +95,8 @@ body{
     font-size: 20px;
     cursor: pointer;
     border: none;
+    color: white;
+    padding: 5px;
 }
 
 .ethWrap{
