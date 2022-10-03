@@ -72,6 +72,28 @@ body{
    
 }
 
+.btns{
+    position: absolute;right: 5%;
+   
+}
+
+.buybtn{
+    background-color: green;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+}
+
+.sellbtn{
+    background-color: red;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
 .ethWrap{
     background: #000000d0;
     color: white;
