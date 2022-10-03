@@ -1,0 +1,21 @@
+.currency{
+ position: absolute;left: 2%;
+ top: 1%;
+ font-size: 30px;
+}
+
+#arrow{
+ position: relative;left: 25%;
+ top: 30px;
+ 
+}
+
+#arrowDown{
+    position: relative;left: 25%;
+    top: 30px;
+    
+   }
+
+.price{
+    position: absolute;left: 5%;
+}
