@@ -39,6 +39,18 @@ body{
        top: 35px;
        
       }
+      #arrowTeth{
+        position: absolute;left: 65%;
+        top: 35px;
+        
+       }
+       
+       #arrowDownTeth{
+           position: absolute;left: 65%;
+           top: 35px;
+           
+          }
+
 
 .price{
     position: absolute;left: 40%;
@@ -67,6 +79,18 @@ body{
     border-radius: 30px;
     width: 100%;
     position: absolute;top: 30%;
+    max-width: 420px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tethWrap{
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    position: absolute;top: 50%;
     max-width: 420px;
     justify-content: center;
     align-items: center;
