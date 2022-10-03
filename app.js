@@ -78,6 +78,7 @@ eth.onmessage = (event) => {
 tether.onmessage = (event) => {
   let stockObject = JSON.parse(event.data);
   let priceTeth = parseFloat(stockObject.p).toFixed(2);
+
   stockPriceElementTeth.innerText = priceTeth;
   stockPriceElementTeth.style.color =
     !lastPrice || lastPrice === priceTeth
@@ -85,8 +86,6 @@ tether.onmessage = (event) => {
       : priceTeth > lastPrice
       ? "green"
       : "red";
-
-  console.log(event.data);
 
   lastPrice = priceTeth;
 
